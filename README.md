@@ -30,7 +30,7 @@ Open a terminal in the project folder and run:
 py -m venv .venv
 .venv\Scripts\activate
 py -m pip install -r requirements.txt
-py -m uvicorn app.main:app --reload
+py -m uvicorn main:app --reload
 ```
 
 ### macOS / Linux
@@ -38,7 +38,7 @@ py -m uvicorn app.main:app --reload
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python -m uvicorn app.main:app --reload
+python -m uvicorn main:app --reload
 ```
 
 Then open http://127.0.0.1:8000/docs in your browser to test the API.
